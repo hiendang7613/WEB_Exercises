@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+/*----------*/
+#line-1 {
+  background-color: #eeeeee;
+  height: 3em;
+}
+
+#title-1 {
+  display: inline-block;
+  margin: 0.2em 8em 1em 1em;
+}
+
+#btn-container {
+  display: inline-block;
+  width: fit-content;
+}
+#btn-container > button {
+  align-items: center;
+  background-color: #e8a2af;
+  border-radius: 5px;
+  margin: -5px;
+}
+
+/*----------*/
+#form-1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#form-1 > fieldset {
+  display: inline-block;
+  border-left: 0px;
+  border-bottom: 0px;
+  max-width: 1000px;
+  min-width: 0;
+}
+
+#form-1 .tarea {
+  width: 100%;
+  border: none;
+}

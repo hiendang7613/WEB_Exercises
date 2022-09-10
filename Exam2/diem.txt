@@ -1,0 +1,12 @@
+1 điểm: xây dựng giao diện cơ bản 100%
+✓ 1 điểm: thay đổi trạng thái các nút nhấn đóng mở các phần 100%
+✓ 1 điểm: đóng mở các phần 100%
+✓ 1 điểm: kích thước các phần hợp lý 100%
+✓ 1 điểm: nội dung sẵn ở các phần hợp lý 100%
+✓ 1 điểm: Output đúng phần HTML 100%
+✓ 1 điểm: Output đúng phần CSS 100%
+✓ 1 điểm: Output đúng phần Javascript 100%
+✓ 1 điểm: Cập nhật được Output khi nội dung các phần input thay đổi (đóng
+mở Output để cập nhật cũng được chấp nhận) 100%
+✓ 1 điểm: Cập nhật Output ngay khi nội dung thay đổi ở bất kỳ phần input
+nào 100%

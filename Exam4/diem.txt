@@ -1,0 +1,38 @@
+Web API : http://www.omdbapi.com/ (thông tin movie, thông tin diễn viên, rating, danh sách phim của diễn viên)
+
+1 điểm: Thông tin address các Web API đã sử dụng và dữ liệu lấy được từ
+đó (thông tin movie, thông tin diễn viên, rating, danh sách phim của diễn
+viên,…) [điền vào file diem.txt, tối thiểu đủ các dữ liệu yêu cầu kể trên mới
+đạt 100% phần này]. 100%
+
+✓ 1 điểm: Giao diện cơ bản sử dụng bootstrap với hiển thị danh sách Movie
+ban đầu (lấy dữ liệu theo chủ đề nào cũng được như: top rate, newest,…)
+[hiển thị kết quả theo list với các thông tin cơ bản: poster, title, rated,
+length,…] 100%
+
+✓ 1 điểm: Danh sách Movie hiển thị dạng CardView với các thông tin cơ bản:
+poster, title, rated, length,… 100%
+
+✓ 1 điểm: Thực hiện tìm kiếm Movie theo tên và hiển thị theo dạng CardView
+với các thông tin cơ bản: poster, title, rated, length,… 100%
+
+✓ 1 điểm: Thực hiện tìm kiếm Movie theo Diễn viên
+
+✓ 1 điểm: Xem chi tiết Movie khi nhấn vào mỗi Movie trên danh sách, cần
+hiển thị được hình ảnh, tiêu đề, năm sản xuất, đạo diễn, tóm tắt.
+PTUDWEB 11– 2021 100%
+
+✓ 1 điểm: Trong phần xem chi tiết Movie hiển thị thêm được thông tin diễn
+viên, thể loại.  100%
+
+✓ 1 điểm: Xem thông tin chi tiết diễn viên (nhấn liên kết từ tên diễn viên trong
+xem chi tiết Movie) cần hiển thị được hình ảnh, tên diễn viên, tiểu sử.  0%
+
+✓ 1 điểm: Trong phần chi tiết Diễn viên cần hiển thị thêm được danh sách
+Movie diễn viên có tham gia (dạng danh sách có nhiều thông tin).  0%
+
+✓ 1 điểm: Trong phần chi tiết Movie hiển thị được reviews cho Movie. 100%
+
+✓ 1 điểm: có hiệu ứng Loading.  0%
+
+✓ 1 điểm: có phân trang ở các danh sách.  100%

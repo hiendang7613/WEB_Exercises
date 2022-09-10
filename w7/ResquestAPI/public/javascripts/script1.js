@@ -13,7 +13,7 @@ async function loadpage(page) {
       <td>${user.last_name}</td>
       <td>${user.email}</td>
       <td>
-          <img src="${user.avatar}">
+          <img src="${user.avatar}" alt="Loading...">
       </td>
   </tr>
       `);
@@ -28,7 +28,7 @@ async function search(keyword) {
   for (const user of users.data) {
     if (user.first_name.includes(keyword) || user.last_name.includes(keyword)) {
       $("tbody").append(`
-              <tr>
+            <tr>
               <th scope="row">${user.id}</th>
               <td>${user.first_name}</td>
               <td>${user.last_name}</td>

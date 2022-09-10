@@ -1,0 +1,56 @@
+<div id='main-container' class="container-fluid">
+    <div class="row">
+        <div class="col col-field">
+            <form action="/signin" method="post">
+                <h2 class="title-1">
+                    Sign in
+                </h2>
+                <h2 class="caption-1">
+                    Sign in and start study with us
+                </h2>
+
+                <div class="input-group line-field shadow">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <img src="/images/username.png" class="icon-input" />
+                    </span>
+                    <input type="text" class="form-control" placeholder="Username" name="username">
+                </div>
+                <div class="input-group line-field shadow">
+                    <span class="input-group-text" id="addon-wrapping">
+                        <img src="/images/password.png" class="icon-input" />
+                    </span>
+
+                    <input type="text" class="form-control" placeholder="Password" name="password">
+
+                </div>
+
+                <div class="input-group mb-3 line-checkbox">
+                    <input type="checkbox" class='shadow' name="keep"
+                        style="margin-top: 5px; margin-right: 15px;   transform: scale(1.4);">
+                    <p>Remember me</p>
+                </div>
+                <p style="color: red;">{{msg}}</p>
+                <button type="submit" class="btn btn-primary line-field shadow">Sign in</button>
+            </form>
+
+        </div>
+        <div class="col col-signin">
+
+            <p>Sign in with</p>
+
+            <div type="button" class="btn btn-signin-with color-facebook shadow">
+                <img src="/images/signin-facebook.png" />
+                <p>Sign in with Facebook</p>
+            </div>
+            <div type="button" class="btn btn-signin-with color-apple shadow">
+                <img src="/images/signin-apple.png" />
+                <p>Sign in with Apple</p>
+            </div>
+            <div type="button" class="btn btn-signin-with color-google shadow">
+                <img src="/images/signin-google.png" />
+                <p> Sign in with Google </p>
+            </div>
+
+        </div>
+    </div>
+</div>

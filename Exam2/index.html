@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleLiveCode</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/script1.js"></script>
+</head>
+
+<body>
+    <div id="line-1">
+        <h1 id="title-1">SimpleLiveCode</h1>
+        <div id="btn-container">
+            <button id="btn-html" onclick="btnHTML()">HTML</button>
+            <button id="btn-css" onclick="btnCSS()">CSS</button>
+            <button id="btn-js" onclick="btnJS()">JavaScript</button>
+            <button id="btn-out" onclick="btnOUT()">Output</button>
+        </div>
+    </div>
+    <form id="form-1">
+        <fieldset id="field-html">
+            <legend>HTML</legend>
+            <textarea id="tarea-html" class="tarea" name="w3review" rows="10">
+                </textarea>
+        </fieldset>
+        <fieldset id="field-css">
+            <legend>CSS</legend>
+            <textarea id="tarea-css" class="tarea" name="w3review" rows="10">
+                </textarea>
+        </fieldset>
+        <fieldset id="field-js">
+            <legend>JavaScript</legend>
+            <textarea id="tarea-js" class="tarea" name="w3review" rows="10">
+                </textarea>
+        </fieldset>
+        <fieldset id="field-out">
+            <legend>Output</legend>
+            <iframe id="tarea-out" class="tarea"> </iframe>
+        </fieldset>
+    </form>
+</body>
+
+</html>

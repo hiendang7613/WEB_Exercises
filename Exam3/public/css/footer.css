@@ -1,0 +1,22 @@
+.b-example-divider {
+  margin-top: 2em;
+  height: 1px;
+  box-shadow: 0 -5px 10px black;
+}
+
+.col-md {
+  padding: 0;
+}
+
+#copyright {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#footer-container {
+  /* margin-top: 2em; */
+  margin-left: 0;
+  margin-right: 0;
+  width: 100vw;
+  max-width: none;
+}

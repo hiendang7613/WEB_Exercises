@@ -1,0 +1,71 @@
+body {
+  margin: 40px;
+}
+p,
+h1 {
+  margin: 0;
+}
+
+#form1 {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "title title title title"
+    "labelO1 textbox1 radio11 radio12"
+    "labelO2 textbox2 radio21 radio22"
+    "labelR textboxR btnsubmit btnsubmit"
+    "labelN labelNR labelNR labelNR";
+  grid-template-columns: 80px 200px 60px 60px;
+  grid-template-rows: 50px 25px 25px 25px 25px;
+}
+
+#ftitle {
+  grid-area: title;
+}
+
+#flabelO1 {
+  grid-area: labelO1;
+}
+#ftextbox1 {
+  grid-area: textbox1;
+}
+#fradio11 {
+  grid-area: radio11;
+}
+#fradio12 {
+  grid-area: radio12;
+}
+
+#flabelO2 {
+  grid-area: labelO2;
+}
+#ftextbox2 {
+  grid-area: textbox2;
+}
+#fradio21 {
+  grid-area: radio21;
+}
+#fradio22 {
+  grid-area: radio22;
+}
+
+#flabelR {
+  grid-area: labelR;
+}
+#ftextboxR {
+  grid-area: textboxR;
+}
+#fbtnsubmit {
+  grid-area: btnsubmit;
+}
+
+#flabelN {
+  grid-area: labelN;
+}
+#flabelNR {
+  grid-area: labelNR;
+}
+
+#flabelNR {
+  color: red;
+}
