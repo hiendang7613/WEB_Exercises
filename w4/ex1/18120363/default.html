@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>default</title>
+  
+  <style>
+    body {
+      background-color: linen;
+      font-family: "Source Sans Pro", sans-serif;
+      margin: 0px;
+    }
+    .bar {
+        position: fixed;
+        z-index: 1;
+    }
+    .bar-item{
+        display: inline;
+    }
+    .bar-link{
+        font-weight: 700;    
+        color: #d63737;
+        padding-right: 16px;
+        padding-left: 16px;
+        font-size: 1.20rem;
+    }
+    .banner{
+        background-image: url(../assets/img/banner-pattern.svg);
+        background: rgba(52, 53, 49, 0.7);
+        margin-bottom: -50px;
+        padding-top:200px;
+        padding-bottom:100px;
+        background-repeat: no-repeat;
+        width:100%;
+        background-size: 100%;
+    }
+    .container{
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .card-fr {
+        margin-right: 15px auto;
+        max-width: 240px;
+        background-color: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 6px rgb(154 159 151 / 20%);
+        overflow: hidden;
+    }
+    .list-fr .item-fr {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        width: 300px
+    }
+
+    .img-fr {
+        width:270px;
+        height:300px
+    }
+
+    .page-footer{
+        background-color: #2D3B38;
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    .footer-col{
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    a{    
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    .page-footer a{
+        display: inline-block;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: rgba(255, 255, 255, 0.6);
+        transition: all .2s ease;
+    }
+
+    h5{
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-weight: 500;
+    }
+
+    ul{
+        list-style: none;
+        padding-left:0;
+    }
+        
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+        
+    .txt-name-fr{
+        font-size: 20px !important;
+        margin-bottom: 5px;
+    }
+        
+    .card-title{
+        padding: 15px 20px;
+    }
+
+    .txt-university-fr{
+        color: #6E807A;
+        font-size: 14px;
+    }
+    a, a:visited, a:hover, a:active {
+      color: inherit;
+    }
+    </style>
+
+</head>
+<body>
+  <header>
+    <div class="bar" style="background-color: white; width: 100%; height:60px">
+    <img src="./images/logo.png" width="60" height="60" style="display: inline-block">
+         <ul style="display: inline-block; vertical-align: top; padding-top: 4px;"> 
+            <li class="bar-item">
+              <a class="bar-link" href="./default.html">Home</a>
+            </li>
+            <li class="bar-item">
+              <a class="bar-link" href="./default.html#about-us">About Us</a>
+            </li>
+            <li class="bar-item">
+              
+            <a class="bar-link" href="./default.html#comrades">Comrades</a></li>
+            
+            <li class="bar-item">
+              <a class="bar-link" href="./default.html#contact">Contact</a>
+            </li>
+            
+          </ul>
+     </div>
+
+    
+  </header>
+
+  <div class="banner" style="background-image: url(./images/banner.webp);">
+    <div style="  text-align: center">
+      <div class="container" style="visibility: visible;">
+        <p style="font-size: 25px; font-weight:bold ; color:white; text-shadow: black 0px 0px 6px,   black 0px 0px 6px,   black 0px 0px 6px,
+             black 0px 0px 6px,   black 0px 0px 6px,   black 0px 0px 6px; margin-bottom:10px">Friends of the NTC, unite! </p>
+        <h1 style="font-size: 45px;color:#FFD900;text-shadow: black 0px 0px 6px,   black 0px 0px 6px,   black 0px 0px 6px,
+             black 0px 0px 6px,   black 0px 0px 6px,   black 0px 0px 6px; margin-top:6px">Nhóm nhà trọ club</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="welcome" id="about-us" style="padding-top:100px">
+          <div class="welcome-text" style="width:30%; padding-left:50px; float: left;">
+            <h1>Welcome to Nha tro club</h1>
+            <p>Chưa biết ghi gì 🥲 </p>
+            <a href="" class="btn btn-primary">More</a>
+          </div>
+          <div class="welcome-image" style="width: 60%; height:60px;float: right;">
+            <img style="width:100%; border-radius: 7px;" src="./images/nhom.jpg">
+          </div>
+        </div> 
+
+  <div class="member-section container" style="margin-top:600px; padding-top:100px" id="comrades">
+    <h1 style="text-align: center ;visibility: visible;">We are</h1>
+      <div class="list-fr" style="visibility: visible;">
+        <div>
+
+          <a class="item-fr" href="./members/p1/p1.html">
+            <div class="card-fr">
+              <img class="img-fr" src="./images/p_1.jpg" alt="">
+              <div class="card-title">
+                <p class="txt-name-fr">Đặng Văn Hiển</p>
+                <span class="txt-university-fr">VNUHCM-University of Science</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <a class="item-fr" href="./members/p2/p2.html">
+          <div class="card-fr">
+            <img class="img-fr" src="./images/p_2.jpg" alt="">
+            <div class="card-title">
+              <p class="txt-name-fr">Lê Thanh Viễn</p>
+              <span class="txt-university-fr">VNUHCM-University of Science</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="item-fr" href="./members/p3/p3.html">
+          <div class="card-fr">
+            <img class="img-fr" src="./images/p_3.png" alt="">
+            <div class="card-title">
+              <p class="txt-name-fr">Bùi Ngọc Phước Lộc</p>
+              <span class="txt-university-fr">HCMC University of Technology and Education</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="item-fr" href="./members/p4/p4.html">
+          <div class="card-fr">
+            <img src="./images/p_4.jpg" alt="" class="img-fr">
+            <div class="card-title">
+              <p class="txt-name-fr">Nguyễn Hoàng Tú</p>
+              <span class="txt-university-fr">HCMC University of Technology</span>
+            </div>
+          </div>
+        </a>
+      </div>
+  </div>
+
+  <footer class="page-footer" style="margin-top:500px;color: #fff;line-height: 1.2;" id="contact">
+    <div class="container">
+      <div style="    display: flex;    box-sizing: border-box;">
+
+        <div class="footer-col">
+          <h5>Team</h5>
+          <ul class="footer-menu">
+            <li><a href="./default.html#about-us">About Us</a></li>
+            <li><a href="./default.html#about-us">Greetings</a></li>
+            <li><a href="./default.html#comrades">Comrades</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Comrades</h5>
+          <ul class="footer-menu">
+            <li><a href="./members/p1/p1.html">DVH</a></li>
+            <li><a href="./members/p2/p2.html">LTV</a></li>
+            <li><a href="./members/p3/p3.html">BNPL</a></li>
+            <li><a href="./members/p4/p4.html">NHT</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social Media</h5>
+          <ul class="footer-menu">
+            <li><a href="https://www.facebook.com/hiendang7613/">Facebook</a></li>
+            <li><a href="./default.html">Twitter</a></li>
+            <li><a href="./default.html">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <p class="footer-link mt-2">73/16 đường số 14, phường Tăng Nhơn Phú B, quân 9, TpHCM</p>
+          <a href="./default.html" class="footer-link">(84+)0812540145</a>
+          <a href="./default.html" class="footer-link">dvhqnn1@gmail.com</a>
+        </div>
+      </div>
+
+      <hr style="margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-color: #4F5E5B;">
+      <p id="copyright">By 1812036 - Đặng Văn Hiển</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</body></html>

@@ -1,0 +1,76 @@
+<div class="row py-2">
+    <div class="col-md-3">
+        <div class="card h-100">
+            <div class="card-header bg-primary">
+                Action
+            </div>
+            <div class="card-body ">
+                <form>
+                    <input class="form-control my-2" type="text" placeholder="name" name="name"
+                        aria-label="default input example">
+                    <input class="form-control my-2" type="text" placeholder="job" name="job"
+                        aria-label="default input example">
+                    <input class="form-control my-2" type="text" placeholder="id" name="id"
+                        aria-label="default input example">
+
+                    <div class="row g-3">
+                        <input type="submit" class="btn btn-primary col-auto mb-3 mx-1" name="action"
+                            value="Add">
+                        <input type="submit" class="btn btn-primary col-auto mb-3 mx-1" name="action"
+                            value="Modify">
+                        <input type="submit" class="btn btn-primary col-auto mb-3 mx-1" name="action"
+                            value="Remove">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="card h-100">
+            <div class="card-header bg-primary">
+                List
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First name</th>
+                            <th scope="col">Last name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Avatar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" onclick="loadpage(1)" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(1)">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(2)">2</a></li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(3)">3</a></li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(4)">4</a></li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(5)">5</a></li>
+                        <li class="page-item"><a class="page-link" onclick="loadpage(6)">6</a></li>
+                        <li class="page-item">
+                            <a class="page-link" onclick="loadpage(6)" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+</div>

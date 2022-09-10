@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chess</title>
+    <link rel="stylesheet" href="./css/style1.css" />
+    <script src="./js/script1.js"></script>
+  </head>
+
+  <body>
+    <form id="form1" action="javascript:void(0);">
+      <h1 id="ftitle">Bé tập tính</h1>
+
+      <p id="flabelO1" class="flabel">Số thứ nhất</p>
+      <input id="ftextbox1" class="textbox" name="num1" />
+      <label for="fradio11">
+        <input
+          id="fradio11"
+          class="fradio"
+          type="radio"
+          name="operation1"
+          checked="checked"
+        />Cộng
+      </label>
+      <label for="fradio12">
+        <input id="fradio12" class="fradio" type="radio" name="operation1" />
+        Trừ
+      </label>
+
+      <p id="flabelO2" class="flabel">Số thứ hai</p>
+      <input id="ftextbox2" class="textbox" name="num2" />
+      <label for="fradio21">
+        <input id="fradio21" class="fradio" type="radio" name="operation1" />
+        Nhân
+      </label>
+      <label for="fradio22">
+        <input
+          id="fradio22"
+          class="fradio"
+          type="radio"
+          name="operation1"
+        />Chia
+      </label>
+
+      <p id="flabelR" class="flabel">Kết quả</p>
+      <input id="ftextboxR" class="textbox" name="txtresult" />
+      <input id="fbtnsubmit" class="btnsubmit" type="submit" onclick="calc()" />
+
+      <p id="flabelN" class="flabel">Thông báo</p>
+      <p id="flabelNR" class="label"></p>
+    </form>
+  </body>
+</html>

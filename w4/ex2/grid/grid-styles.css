@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*------------------------------- for mobile phones -------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    /*------------- navbar -------------*/
+    .navbar {
+        display: flex;
+        background: linear-gradient(0, #4297ef 0%, #77bafe 100%);
+        list-style-type: none;
+        justify-content: start;
+        align-items: center;
+        height: 2.5rem;
+        margin: 0;
+        padding-inline-start: 20px;
+        position: fixed;
+        width: 100%;
+    }
+    .nav-item {
+        margin-right: 1rem;
+    }
+    .nav-item:last-child {
+        margin-left: auto;
+        float: right;
+        margin-right: 30px;
+    }
+    .nav-item>a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: #c8def6;
+        font-weight: bold;
+    }
+    /*------------- grid -------------*/
+    .container {
+        display: grid;
+        grid-auto-rows: auto;
+    }
+    /*------------- logo -------------*/
+    .logo {
+        font-size: 7rem;
+        text-align: center;
+        margin: 5rem;
+        grid-row: 1;
+    }
+    /*------------- table -------------*/
+    .table {
+        display: grid;
+        background-color: #66affa;
+        grid-row: 2;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 5vw;
+        padding: 5vw;
+        justify-items: center;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        padding: 5vw;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #444444;
+        font-size: 4rem;
+        border: 1px solid #BBB;
+        border-radius: 4px;
+        box-shadow: 4px 4px 5px #BBB;
+        display: inline-block;
+    }
+    /*------------- footer -------------*/
+    .footer-title {
+        font-size: 1.3rem;
+        text-align: center;
+        background: linear-gradient(0, #f3ba1f 0%, #f4ac9a 100%);
+        color: white;
+        height: 1.7rem;
+    }
+}
+
+/*------------------------------- for bigger -------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    /*------------- navbar -------------*/
+    .navbar {
+        display: flex;
+        background: linear-gradient(0, #4297ef 0%, #77bafe 100%);
+        list-style-type: none;
+        justify-content: start;
+        align-items: center;
+        height: 3rem;
+        margin: 0;
+    }
+    .nav-item {
+        margin-right: 2rem;
+    }
+    .nav-item:last-child {
+        margin-left: auto;
+        float: right;
+    }
+    .nav-item>a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #c8def6;
+    }
+    /*------------- grid -------------*/
+    .container {
+        display: grid;
+        grid-auto-rows: auto;
+    }
+    /*------------- logo -------------*/
+    .logo {
+        font-size: 15rem;
+        text-align: center;
+        margin: 2rem;
+        grid-row: 1;
+    }
+    /*------------- table -------------*/
+    .table {
+        display: grid;
+        background-color: #66affa;
+        grid-row: 2;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 4vw;
+        padding: 2vw;
+        justify-items: center;
+    }
+    .box {
+        width: 20vw;
+        height: 20vw;
+        padding: 3vw;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #444444;
+        font-size: 8rem;
+        border: 1px solid #BBB;
+        border-radius: 4px;
+        box-shadow: 4px 4px 5px #BBB;
+        display: inline-block;
+    }
+    /*------------- footer -------------*/
+    .footer-title {
+        font-size: 2rem;
+        text-align: center;
+        background: linear-gradient(0, #f3ba1f 0%, #f4ac9a 100%);
+        color: white;
+        height: 2.5rem;
+    }
+}

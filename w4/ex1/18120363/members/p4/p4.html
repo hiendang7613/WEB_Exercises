@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>p4</title>
+  <style>
+    body {
+      background-color: linen;
+      font-family: "Source Sans Pro", sans-serif;
+      margin: 0px;
+      line-height: 1.5;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .bar {
+      position: fixed;
+      z-index: 1;
+      top: 0px;
+    }
+    .bar-item{
+      display: inline;
+    }
+    .bar-link{
+      font-weight: 700;    
+      color: #d63737;
+      padding-right: 16px;
+      padding-left: 16px;
+      font-size: 1.20rem;
+    }
+    a{    
+      text-decoration: none;
+      background-color: transparent;
+      color: #07be94;
+      background-color: transparent;
+    }
+    .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.75rem 1rem;
+      list-style: none;
+      border-radius: 0.25rem;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      display: inline-block;
+      padding-right: 0.5rem;
+      color: #6c757d;
+      content: "/";
+      padding-left: 0.5rem;
+    }
+    .page-footer {
+      background-color: #2D3B38;
+      padding-top: 60px;
+      padding-bottom: 16px;
+    }
+    .container {
+      max-width: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .footer-col {
+      width: 25%;
+      padding-left: 20px;
+    }
+    h5 {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+      margin-top: 0;
+      font-weight: 500;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .page-footer a {
+      display: inline-block;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      color: rgba(255, 255, 255, 0.6);
+      transition: all .2s ease;
+    }
+    .main-col{
+      flex: 0 0 60%;
+      max-width: 60%;
+      float: left;
+    }
+    .col{
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .right-col{
+      flex: 0 0 40%;
+      max-width: 40%;
+      float: right;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    .sidebar-block {
+      position: relative;
+      display: block;
+      padding: 15px 24px;
+      margin-bottom: 32px;
+      background-color: #fff;
+      border-radius: 8px;
+      border: 1px solid #E8EEE4;
+      box-shadow: 0 4px 12px rgb(154 159 151 / 20%);
+    }
+    img{
+      border-radius: 7px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bar" style="background-color: white; width: 100%; height:60px">
+    <img src="../../images/logo.png" width="60" height="60" style="display: inline-block">
+       <ul style="display: inline-block;vertical-align: top;padding-top: 4px;"> 
+         <li class="bar-item">
+           <a class="bar-link" href="../../default.html">Home</a>
+         </li>
+         <li class="bar-item">
+           <a class="bar-link" href="../../default.html#about-us">About Us</a>
+         </li>
+         <li class="bar-item">
+           <a class="bar-link" href="../../default.html#comrades">Comrades</a>
+         </li>
+         <li class="bar-item">
+           <a class="bar-link" href="../../default.html#contact">Contact</a>
+         </li>
+       </ul>
+  </header>
+
+  <div class="container" style="max-width: 1140px;">
+    <nav aria-label="Breadcrumb" style="margin-top:80px">
+      <ol class="breadcrumb bg-transparent py-0 mb-5">
+        <li class="breadcrumb-item"><a href="../../default.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../../default.html#comrades">Comrades</a></li>
+        <li class="breadcrumb-item">Nguyễn Hoàng Tú</li>
+      </ol>
+    </nav>
+
+    <div class="member-section">
+
+      <div class="main-col col">
+        <img src="./images/p_4.jpg" alt="" style="width: 100%; height:700px">
+        <h2 class="post-title">Thinking ..</h2>
+        <p class="post-content">......</p>
+      </div>
+
+      <div class="right-col col">
+        <div class="sidebar">
+
+          <div class="sidebar-block">
+            <h3 class="sidebar-title">Nguyễn Hoàng Tú</h3>
+            <p class="sidebar-title">Giới tính : Nam</p>
+            <p class="sidebar-title">Ngày sinh : 9/11/2000</p>
+          </div>
+
+          <div class="sidebar-block">
+            <h3 class="sidebar-title">Công việc và học vấn</h3>
+            <p class="sidebar-title">Đã học tại THPT Trần Quang Diệu</p>
+          <p class="sidebar-title">Học Kỹ thuật Xây dựng tại Đại Học Bách Khoa Tp. Hồ Chí Minh</p>
+          </div>
+
+          <div class="sidebar-block">
+            <h3 class="sidebar-title">Thông tin liên hệ và cơ bản</h3>
+            <p class="sidebar-title">Di động : 0968426941</p>
+            <p class="sidebar-title">Email : qltu1020661@gmail.com</p>
+            <p class="sidebar-title">GitHub : none</p>
+            <p class="sidebar-title">LinkedIn : none</p>
+          </div>
+
+        </div>
+      </div> 
+
+    </div> 
+  </div> 
+
+  <footer class="page-footer" style="margin-top:850px;color: #fff;line-height: 1.2;">
+    <div class="container">
+      <div style="    display: flex;    box-sizing: border-box;">
+
+        <div class="footer-col">
+          <h5>Team</h5>
+          <ul class="footer-menu">
+            <li><a href="../../default.html#about-us">About Us</a></li>
+            <li><a href="../../default.html#about-us">Greetings</a></li>
+            <li><a href="../../default.html#comrades">Comrades</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Comrades</h5>
+          <ul class="footer-menu">
+            <li><a href="../p1/p1.html">DVH</a></li>
+            <li><a href="../p2/p2.html">LTV</a></li>
+            <li><a href="../p3/p3.html">BNPL</a></li>
+            <li><a href="../p4/p4.html">NHT</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social Media</h5>
+          <ul class="footer-menu">
+            <li><a href="https://www.facebook.com/hiendang7613/">Facebook</a></li>
+            <li><a href="./default.html">Twitter</a></li>
+            <li><a href="./default.html">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <p class="footer-link mt-2">73/16 đường số 14, phường Tăng Nhơn Phú B, quân 9, TpHCM</p>
+          <a href="../../default.html" class="footer-link">(84+)0812540145</a>
+          <a href="../../default.html" class="footer-link">dvhqnn1@gmail.com</a>
+        </div>
+      </div>
+
+      <hr style="margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-color: #4F5E5B;">
+      <p id="copyright">By 1812036 - Đặng Văn Hiển</p>
+    </div>
+  </footer> 
+
+</body>
+</html>
